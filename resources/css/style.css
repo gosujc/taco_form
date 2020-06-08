@@ -2,7 +2,7 @@ html, body {
     height: 100%;
     width: 100%;
     margin: 0;
-    background-image: url(/home/gosu_jc/Coding/taco_survey/resources/img/tacos.jpg);
+    background-image: url(/home/gosu_jc/Coding/taco_form/resources/img/tacos.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -11,15 +11,24 @@ html, body {
 
 h1, p {
     text-align: center;
-<<<<<<< HEAD
     margin-top: 0px;
-   
-}
-=======
 }
 
 h1 {
     margin: 0;
     padding-top: 40px;
-    font-family: 
->>>>>>> update
+}
+
+form {
+    text-align: center;
+    background: rgb(88, 103, 240);
+    Padding: 40px;
+    opacity: .8;
+    margin: 5% 25%;
+}
+
+.form-group {
+    opacity: 1;
+    font-size: 25px;
+    display: inline;
+}
