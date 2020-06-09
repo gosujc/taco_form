@@ -25,7 +25,7 @@
         </div>
         <div class="form-group">
             <label id="email-label" for="email">Email</label>
-            <input type="text" name="email" id="email" class="form-control" placeholder="Enter your email" required>
+            <input type="email" name="email" id="email" class="form-control" placeholder="Enter your email" required>
         </div>
         <div class="form-group">
             <label id="ethnicity-label" for="ethnicity">Ethnicity</label>
@@ -44,7 +44,7 @@
         </div>
         <div class="form-group">
             <label id="number-label" for="number">How many tacos can you eat?</label>
-            <input type="text" name="number" min="99" max="9999" id="number" class="form-control" placeholder="Please write how much" required>
+            <input type="number" name="number" min="99" max="9999" id="number" class="form-control" placeholder="Please write how much" required>
         </div>
        <p>How did you hear about Tacos?</p>
        <input type="radio" id="family" name="taco-how" value="family">
@@ -55,9 +55,24 @@
        <label for="internet">Internet</label>
        <input type="radio" id="radio" name="taco-how" value="radio">
        <label for="radio">Radio</label>
-        
-       
+       <div class="form-group">
+                <p>What other Mexican food do your like?</p>
+                <input type="checkbox" id="burrito" name="burrito" value="other-food" checked>
+                <label for="burrito">Burrito</label>
+                <input type="checkbox" id="menudo" name="menudo" value="other-food">
+                <label for="menudo">Menudo</label>
+                <input type="checkbox" id="chimichanga" name="chimichanga" value="other-food">
+                <label for="chimichanga">Chimichanga</label>
+                <input type="checkbox" id="barbacoa" name="barbacoa" value="other-food">
+                <label for="barbacoa">Barbacoa</label>
+       </div>
+        <div class="form-group">
+            <p>Any comments about your love for Tacos?</p> 
+            <label for="taco-love"></label>
+            <textarea id="taco-love" name="taco-love" placeholder="Write your love for tacos here!"></textarea>
 
+        </div>
+        <input type="submit" value="submit" id="submit">
 
 
 
@@ -103,7 +118,7 @@
 
 
 
-
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
 
 
