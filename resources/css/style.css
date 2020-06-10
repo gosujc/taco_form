@@ -1,15 +1,21 @@
+/*****************/
+*body*
+/*****************/
 html, body {
     height: 100%;
     width: 100%;
     margin: 0;
     background-image: url(/home/gosu_jc/Coding/taco_form/resources/img/tacos.jpg);
+    opacity: 0.8;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
+    z-index: -1;
 }
 
-
-
+/*****************/
+*Headings*
+/*****************/
 h1, p {
     text-align: center;
     margin-top: 0px;
@@ -20,12 +26,14 @@ h1 {
     padding-top: 40px;
 }
 
-form {
-    text-align: center;
-    background: rgb(88, 103, 240);
+/**************/
+*survey*
+/**************/
+
+#survey-form {
+    text-align: left;
+    background: rgba (27, 27, 50, .8);
     Padding: 40px;
-    opacity: .8;
-    margin: 2% 25%;
 }
 
 .form-group {
@@ -33,4 +41,18 @@ form {
     font-size: 25px;
     display: block;
     padding: 20px;
+}
+
+label {
+    display: flex;
+    align-items: center;
+}
+
+.form-group p {
+    text-align: left;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
 }
