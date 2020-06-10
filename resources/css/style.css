@@ -1,5 +1,5 @@
 /*****************/
-*body*
+/*Body*
 /*****************/
 html, body {
     height: 100%;
@@ -14,7 +14,7 @@ html, body {
 }
 
 /*****************/
-*Headings*
+/*Headings*
 /*****************/
 h1, p {
     text-align: center;
@@ -26,14 +26,15 @@ h1 {
     padding-top: 40px;
 }
 
-/**************/
-*survey*
-/**************/
+/*****************/
+/*Survey*
+/*****************/
 
 #survey-form {
     text-align: left;
-    background: rgba (27, 27, 50, .8);
-    Padding: 40px;
+    background: rgb(68, 68, 68);
+    Padding: 100px;
+    background-size: 40px auto;
 }
 
 .form-group {
