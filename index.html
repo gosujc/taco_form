@@ -49,15 +49,17 @@
             <label id="number-label" for="number">How many tacos can you eat?</label>
             <input type="number" name="number" min="99" max="9999" id="number" class="form-control" placeholder="Please write how much" required>
         </div>
-       <p class="form-group">How did you hear about Tacos?</p>
-       <input type="radio" id="family" name="taco-how" value="family">
-       <label for="family">Family</label>
-       <input type="radio" id="friends" name="taco-how" value="friends">
-       <label for="friends">Friends</label>
-       <input type="radio" id="internet" name="taco-how" value="internet">
-       <label for="internet">Internet</label>
-       <input type="radio" id="radio" name="taco-how" value="radio">
-       <label for="radio">Radio</label>
+        <div class="form-group">
+       <p>How did you hear about Tacos?</p>
+       <div class="tacos"><input type="radio" id="family" name="taco-how" value="family" class="tacos">
+       <label for="family" class="tacos">Family</label></div>
+       <div class="tacos"><input type="radio" id="friends" name="taco-how" value="friends">
+       <label for="friends">Friends</label></div>
+       <div class="tacos"><input type="radio" id="internet" name="taco-how" value="internet">
+       <label for="internet">Internet</label></div>
+       <div class="tacos"><input type="radio" id="radio" name="taco-how" value="radio">
+       <label for="radio">Radio</label></div>
+        </div>
        <div class="form-group">
                 <p>What other Mexican food do your like?</p>
                 <input type="checkbox" id="burrito" name="burrito" value="other-food" checked>
