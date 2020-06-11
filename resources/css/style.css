@@ -46,9 +46,31 @@ h1 {
     padding-top: 40px;
 }
 
+p {
+    margin: 0;
+}
+
 /*****************/
 /*Survey*
 /*****************/
+
+
+
+.container {
+    max-width: 720px;
+    width: 100%;
+    margin: 3.125rem auto 0 auto;
+}
+
+form {
+    background: rgb(150, 150, 150);
+    opacity: .8;
+    border-radius: .25rem;
+}
+
+form p {
+    text-align: left;
+}
 
 #survey-form {
     text-align: left;
@@ -57,9 +79,8 @@ h1 {
 
 .form-group {
     opacity: 1;
-    font-size: 25px;
     display: block;
-    padding: 20px;
+    padding: 10px;
 }
 
 label {
