@@ -5,12 +5,11 @@
 <head>
 
 <link rel="stylesheet" href="resources/css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+
 
 </head>
 <title>FCC: Taco Survey</title>
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-</style>
 
 <body>
 
@@ -34,6 +33,8 @@
             <label id="ethnicity-label" for="ethnicity">Ethnicity</label>
             <input type="text" name="ethnicity" id="ethnicity" class="form-control" placeholder="Enter your ethnicity" required>
         </div>
+      
+  
         <div class="form-group">
          <p>What is your favorite taco?</p>
          <select id="dropdown" name="taco" class="form-control" required>
@@ -49,26 +50,29 @@
             <label id="number-label" for="number">How many tacos can you eat?</label>
             <input type="number" name="number" min="99" max="9999" id="number" class="form-control" placeholder="Please write how much" required>
         </div>
-        <div class="form-group">
+      
+       
+      <div class="form-group">
        <p>How did you hear about Tacos?</p>
-       <div class="tacos"><input type="radio" id="family" name="taco-how" value="family" class="tacos">
-       <label for="family" class="tacos">Family</label></div>
-       <div class="tacos"><input type="radio" id="friends" name="taco-how" value="friends">
-       <label for="friends">Friends</label></div>
-       <div class="tacos"><input type="radio" id="internet" name="taco-how" value="internet">
-       <label for="internet">Internet</label></div>
-       <div class="tacos"><input type="radio" id="radio" name="taco-how" value="radio">
-       <label for="radio">Radio</label></div>
+      <input type="radio" id="tacos" name="taco-how" value="family" >
+        <label for="family" class="tacos">Family</label>
+      <input type="radio" id="tacos" name="taco-how" value="friends">
+       <label for="friends">Friends</label>
+       <input type="radio" id="tacos" name="taco-how" value="internet">
+       <label for="internet">Internet</label>
+       <input type="radio" id="tacos" name="taco-how" value="radio">
+        <label for="radio">Radio</label>
         </div>
+      
        <div class="form-group">
                 <p>What other Mexican food do your like?</p>
-                <input type="checkbox" id="burrito" name="burrito" value="other-food" checked>
+                <input type="checkbox" id="tacos" name="burrito" value="other-food" checked>
                 <label for="burrito">Burrito</label>
-                <input type="checkbox" id="menudo" name="menudo" value="other-food">
+                <input type="checkbox" id="tacos" name="menudo" value="other-food">
                 <label for="menudo">Menudo</label>
-                <input type="checkbox" id="chimichanga" name="chimichanga" value="other-food">
+                <input type="checkbox" id="tacos" name="chimichanga" value="other-food">
                 <label for="chimichanga">Chimichanga</label>
-                <input type="checkbox" id="barbacoa" name="barbacoa" value="other-food">
+                <input type="checkbox" id="tacos" name="barbacoa" value="other-food">
                 <label for="barbacoa">Barbacoa</label>
        </div>
         <div class="form-group">
@@ -78,12 +82,6 @@
 
         </div>
         <input type="submit" value="submit" id="submit">
-
-
-
-
-
-
 
      </form>
 
